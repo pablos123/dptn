@@ -1,0 +1,10 @@
+[project]
+name = "dptn"
+version = "1.0"
+description = "Fetch and search news from Debian Package Tracker."
+dependencies = ["beautifulsoup4"]
+requires-python = ">=3.8"
+authors = [{ name = "Pablo Saavedra" }]
+maintainers = [{ name = "Pablo Saavedra" }]
+[project.scripts]
+dptn = "dptn.dptn:main"

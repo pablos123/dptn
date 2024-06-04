@@ -1,3 +1,7 @@
+<div align="center">
+  <img height="300" width="300" src="https://github.com/pablos123/dptn/assets/52180403/4ebe77fd-32b3-4676-aa60-4b4b25352353"/>
+</div>
+
 # Debian Package Tracker News
 
 Fetch and search news from Debian Package Tracker. (https://tracker.debian.org)

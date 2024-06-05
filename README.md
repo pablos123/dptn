@@ -45,7 +45,7 @@ dptn --no-color openssl
 Help.
 
 ```
-dptn -h openssl
+dptn -h
 ```
 
 ## More complex stuff

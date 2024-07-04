@@ -24,7 +24,7 @@ Search "deb10" string for _openssl_ package.
 dptn -s deb10 openssl
 ```
 
-Search "deb10" **and** "2019" strings for _openssl_ **and** _deb10_ packages.
+Search "deb10" **and** "2019" strings for _openssl_ **and** _nginx_ packages.
 
 ```
 dptn -s deb10 -s 2019 nginx openssl

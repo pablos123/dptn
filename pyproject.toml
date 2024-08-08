@@ -1,10 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "dptn"
-version = "1.0"
-description = "Fetch and search news from Debian Package Tracker."
-dependencies = ["beautifulsoup4"]
+version = "1.1"
 requires-python = ">=3.8"
-authors = [{ name = "Pablo Saavedra" }]
-maintainers = [{ name = "Pablo Saavedra" }]
+dependencies = ["beautifulsoup4", "requests"]
+
+description = "Fetch and search news from Debian Package Tracker."
+authors = [{ name = "Pablo Saavedra", email = "pablosaavedra123@gmail.com" }]
+maintainers = [
+    { name = "Pablo Saavedra", email = "pablosaavedra123@gmail.com" },
+]
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/pablos123/dptn"
+
 [project.scripts]
 dptn = "dptn.dptn:main"

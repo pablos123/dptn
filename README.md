@@ -8,7 +8,9 @@ Fetch and search news from Debian Package Tracker. (https://tracker.debian.org)
 
 ## Install
 
-`pip install git+https://github.com/pablos123/dptn.git`
+`pipx install git+https://github.com/pablos123/dptn.git`
+
+> Requires Python >=3.8.
 
 ## Examples
 

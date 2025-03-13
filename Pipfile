@@ -1,2 +1,2 @@
 [packages]
-elcairo = {file = ".", editable = true}
+dptn = {file = ".", editable = true}
